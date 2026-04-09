@@ -9,6 +9,7 @@ interface Stats {
   subjects: number;
   schools?: number;
 }
+// new branch
 
 export default function DashboardPage() {
   const [user, setUser] = useState<any>(null);
